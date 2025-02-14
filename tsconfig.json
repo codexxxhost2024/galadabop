@@ -14,6 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "strictNullChecks": true,  // Ensures null safety
+    "noImplicitAny": true,  // Prevents implicit 'any' types
+    "noUnusedLocals": true,  // Removes unused variables
+    "noUnusedParameters": true,  // Removes unused parameters
+    "exactOptionalPropertyTypes": true, // Prevents incorrect optional properties
     "plugins": [
       {
         "name": "next"
